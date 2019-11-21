@@ -22,6 +22,7 @@ Redhat 7.x
 ********************************************************************
  Warning:
  Please use user of root in Linux System to carried out script file
+ 
  Please make sure this is a brand new system(Important!!!)
 ********************************************************************
 1.get master.sh file to centos 7.x system form https://github.com/Yewuqing/MailSystemScript
