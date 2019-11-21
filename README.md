@@ -5,6 +5,7 @@ Mail system fully automated installation script
 
 #System Operating envieonment
 Cnetos 7.x
+
 Redhat 7.x
 
 #Feature description
@@ -12,11 +13,17 @@ Redhat 7.x
 2. After the execution is completed, the simple settings can be used in the production environment.
 4. Support web page mailbox login and management
 3. Domain name resolution settings, examples are as follows
+
      Mail.netimed.cn           A           ip address
+     
      Smtp.netimed.cn           A           ip address
+     
      Pop3.netimed.cn           A           ip address
+     
      Imap.netimed.cn           A           ip address
+     
      @                         MX          mail.netimed.cn
+     
 
 #Install Steps:
 ********************************************************************
@@ -25,7 +32,7 @@ Redhat 7.x
  
  Please make sure this is a brand new system(Important!!!)
 ********************************************************************
-1.get master.sh file to centos 7.x system form https://github.com/Yewuqing/MailSystemScript
+1.get master.sh file to centos 7.x system from https://github.com/Yewuqing/MailSystemScript
 
 2.setting permission for master.sh
 
@@ -37,10 +44,15 @@ Redhat 7.x
 3.Please waiting 30 mins for system can auto-finish it
 
 4.Now view the web address http://IP:808/postfixadmin/setup.php,
-    The first line of password is: admin (very unsafe, it is recommended to modify)
-    Enter the administrator's email address in the second line (the mailbox needs to be available)
-    Enter the administrator email password in the third line.
-    Enter the administrator email password again in the third line.
+
+   The first line of password is: admin (very unsafe, it is recommended to modify)
+    
+   Enter the administrator's email address in the second line (the mailbox needs to be available)
+    
+   Enter the administrator email password in the third line.
+    
+   Enter the administrator email password again in the third line.
+    
     
 5.View the web address http://IP:808/postfixadmin/login.php
   Enter your administrator's email address and password to log in. After successful login, you need to create a new email domain name and   users under the domain name.
@@ -53,6 +65,7 @@ Redhat 7.x
       chmod  400 /var/www/html/phpmyadmin/config.inc.php
       
 7.Default password description
+
   There will be instructions after the script is installed.
   
   
