@@ -1,7 +1,7 @@
 # MailSystemScript
 Mail system fully automated installation script
 
-#If you have any questions, please send an email to: nathan@netimed.cn
+#If you have any questions, please send an email to: nathan@netimed.cn or itjustnathan@gmail.com
 
 #System Operating envieonment
 Cnetos 7.x
